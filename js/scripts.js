@@ -7,7 +7,7 @@ var navigate = (function() {
   });
 })();
 
-/*var picCross = [
+var picCross = [
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -19,7 +19,7 @@ var navigate = (function() {
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 ];
 
-var arrayHTML = [];
+/*var arrayHTML = [];
 
 for (var i = 0; i < picCross.length; i++) {
   for (var j = 0; j < picCross[i].length; j++) {
