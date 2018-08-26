@@ -55,7 +55,7 @@ function verifySolution() {
 
 var array = [];
 
-/*for (var i = 0; i < solution.length; i++) {
+for (var i = 0; i < solution.length; i++) {
   for (var j = 0; j < solution[i].length; j++) {  
     solution[i][solution[i].indexOf(solution[i][j])] == 1 ?
       array.push(["" + i + j + ""]) :
@@ -63,7 +63,7 @@ var array = [];
   }
 }
 
-$('#show').click(() => {
+/*$('#show').click(() => {
   array.forEach((n) => {
     $('.' + n + ' input').prop('checked', true);
     $('.' + n).addClass("is-checked");
