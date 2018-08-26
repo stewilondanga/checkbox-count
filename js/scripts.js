@@ -19,7 +19,7 @@ var picCross = [
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 ];
 
-/*var arrayHTML = [];
+var arrayHTML = [];
 
 for (var i = 0; i < picCross.length; i++) {
   for (var j = 0; j < picCross[i].length; j++) {
@@ -27,7 +27,7 @@ for (var i = 0; i < picCross.length; i++) {
   }
 }
 
-var solution = [
+/*var solution = [
   [0, 1, 1, 0, 0, 0, 0, 1, 1, 0],
   [0, 0, 0, 1, 0, 0, 1, 0, 0, 0],
   [0, 0, 1, 1, 1, 1, 1, 1, 0, 0],
