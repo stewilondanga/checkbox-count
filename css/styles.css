@@ -60,14 +60,14 @@ body {
   }
 }
 
-/*.top {
+.top {
   top: 0;
   left: 92px;
   width: 302px;
   height: 92px;
 }
 
-.left {
+/*.left {
   left: 0;
   top: 92px;
   width: 92px;
