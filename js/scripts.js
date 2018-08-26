@@ -83,26 +83,26 @@ $(".piccross .checkbox,.piccross .checkbox input").click(function() {
         .replace(/\D/g, "")
         .split("");
 
-      /*  function check(callback) {
-          console.log(picCross)
-          e.children('input').prop('checked', true)
-          $(e).addClass("is-checked");
-          picCross[parseInt(checkThisOnArray[0])][parseInt(checkThisOnArray[1])] = 1;
-          callback();
-          console.log('Ok')
-        }
+      function check(callback) {
+        console.log(picCross)
+        e.children('input').prop('checked', true)
+        $(e).addClass("is-checked");
+        picCross[parseInt(checkThisOnArray[0])][parseInt(checkThisOnArray[1])] = 1;
+        callback();
+        console.log('Ok')
+      }
 
-        function uncheck(callback) {
-          e.children('input').prop('checked', false)
-          picCross[parseInt(checkThisOnArray[0])][parseInt(checkThisOnArray[1])] = 0;
-          $(e).removeClass("is-checked");
-          callback();
-        }
+      /*        function uncheck(callback) {
+                e.children('input').prop('checked', false)
+                picCross[parseInt(checkThisOnArray[0])][parseInt(checkThisOnArray[1])] = 0;
+                $(e).removeClass("is-checked");
+                callback();
+              }
 
-        $(this)
-          .attr("class")
-          .includes("is-checked") ?
-          uncheck(verifySolution) :
-          check(verifySolution);
-      });
-      */
+              $(this)
+                .attr("class")
+                .includes("is-checked") ?
+                uncheck(verifySolution) :
+                check(verifySolution);
+            });
+            */
