@@ -26,7 +26,7 @@ body {
   margin: 20px auto;
 }
 
-/*.body {
+.body {
   position: absolute;
   margin: auto;
   left: 0;
@@ -38,7 +38,7 @@ body {
   border: 1px solid;
 }
 
-.top, .left, .piccross, .corner {
+/*.top, .left, .piccross, .corner {
   box-sizing: border-box;
   position: absolute;
   margin: auto;
