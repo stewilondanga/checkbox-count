@@ -27,7 +27,7 @@ for (var i = 0; i < picCross.length; i++) {
   }
 }
 
-/*var solution = [
+var solution = [
   [0, 1, 1, 0, 0, 0, 0, 1, 1, 0],
   [0, 0, 0, 1, 0, 0, 1, 0, 0, 0],
   [0, 0, 1, 1, 1, 1, 1, 1, 0, 0],
@@ -39,7 +39,7 @@ for (var i = 0; i < picCross.length; i++) {
   [0, 0, 0, 1, 0, 0, 1, 0, 0, 0]
 ];
 
-function verifySolution() {
+/*function verifySolution() {
   if (picCross.toString() === solution.toString()) {
     array.forEach((n, index) => {
       setTimeout(function() {
