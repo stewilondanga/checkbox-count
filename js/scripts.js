@@ -53,9 +53,9 @@ function verifySolution() {
   }
 }
 
-/*var array = [];
+var array = [];
 
-for (var i = 0; i < solution.length; i++) {
+/*for (var i = 0; i < solution.length; i++) {
   for (var j = 0; j < solution[i].length; j++) {  
     solution[i][solution[i].indexOf(solution[i][j])] == 1 ?
       array.push(["" + i + j + ""]) :
