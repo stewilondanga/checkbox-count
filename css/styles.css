@@ -21,12 +21,12 @@ body {
   height: 1.5em;
 }
 
-/*.containers {
+.containers {
   width: 520px;
   margin: 20px auto;
 }
 
-.body {
+/*.body {
   position: absolute;
   margin: auto;
   left: 0;
