@@ -92,14 +92,14 @@ $(".piccross .checkbox,.piccross .checkbox input").click(function() {
         console.log('Ok')
       }
 
-      /*        function uncheck(callback) {
-                e.children('input').prop('checked', false)
-                picCross[parseInt(checkThisOnArray[0])][parseInt(checkThisOnArray[1])] = 0;
-                $(e).removeClass("is-checked");
-                callback();
-              }
+      function uncheck(callback) {
+        e.children('input').prop('checked', false)
+        picCross[parseInt(checkThisOnArray[0])][parseInt(checkThisOnArray[1])] = 0;
+        $(e).removeClass("is-checked");
+        callback();
+      }
 
-              $(this)
+      /*        $(this)
                 .attr("class")
                 .includes("is-checked") ?
                 uncheck(verifySolution) :
