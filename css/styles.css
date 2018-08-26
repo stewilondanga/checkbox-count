@@ -52,7 +52,7 @@ body {
   border: 1px solid;
 }
 
-/*.top, .left, .corner {
+.top, .left, .corner {
   border: 1px solid;
   background-color: #ddd;
   .checkbox {
@@ -60,7 +60,7 @@ body {
   }
 }
 
-.top {
+/*.top {
   top: 0;
   left: 92px;
   width: 302px;
