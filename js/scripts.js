@@ -39,7 +39,7 @@ var solution = [
   [0, 0, 0, 1, 0, 0, 1, 0, 0, 0]
 ];
 
-/*function verifySolution() {
+function verifySolution() {
   if (picCross.toString() === solution.toString()) {
     array.forEach((n, index) => {
       setTimeout(function() {
@@ -53,7 +53,7 @@ var solution = [
   }
 }
 
-var array = [];
+/*var array = [];
 
 for (var i = 0; i < solution.length; i++) {
   for (var j = 0; j < solution[i].length; j++) {  
