@@ -63,7 +63,7 @@ for (var i = 0; i < solution.length; i++) {
   }
 }
 
-/*$('#show').click(() => {
+$('#show').click(() => {
   array.forEach((n) => {
     $('.' + n + ' input').prop('checked', true);
     $('.' + n).addClass("is-checked");
@@ -74,7 +74,7 @@ for (var i = 0; i < solution.length; i++) {
 
 
 
-$(".piccross").html((arrayHTML = arrayHTML.join("")));
+/*$(".piccross").html((arrayHTML = arrayHTML.join("")));
 
 $(".piccross .checkbox,.piccross .checkbox input").click(function() {
   let e = $(this);
