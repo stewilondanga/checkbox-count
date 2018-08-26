@@ -38,13 +38,13 @@ body {
   border: 1px solid;
 }
 
-/*.top, .left, .piccross, .corner {
+.top, .left, .piccross, .corner {
   box-sizing: border-box;
   position: absolute;
   margin: auto;
 }
 
-.corner {
+/*.corner {
   top: 0;
   left: 0;
   height: 92px;
