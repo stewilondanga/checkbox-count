@@ -67,14 +67,14 @@ body {
   height: 92px;
 }
 
-/*.left {
+.left {
   left: 0;
   top: 92px;
   width: 92px;
   height: 272px;
 }
 
-.piccross {
+/*.piccross {
   border: 1px solid;
   top: 92px;
   left: 92px;
