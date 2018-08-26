@@ -44,7 +44,7 @@ body {
   margin: auto;
 }
 
-/*.corner {
+.corner {
   top: 0;
   left: 0;
   height: 92px;
@@ -52,7 +52,7 @@ body {
   border: 1px solid;
 }
 
-.top, .left, .corner {
+/*.top, .left, .corner {
   border: 1px solid;
   background-color: #ddd;
   .checkbox {
