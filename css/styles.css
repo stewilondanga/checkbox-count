@@ -101,7 +101,7 @@ input[type="checkbox"] {}
   border: 1px solid;
 }
 
-/*button {
+button {
   position: absolute;
   margin: auto;
   height: 20px;
@@ -112,7 +112,7 @@ input[type="checkbox"] {}
   right: 0;
 }
 
-#hide {
+/*#hide {
   display: none;
 }
 
